@@ -1,0 +1,21 @@
+{
+  "name": "alai-ora-unicorn",
+  "version": "1.0.0",
+  "description": "A unicorn that says hello world",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alai-arpas/alai-ora-unicorn.git"
+  },
+  "keywords": [],
+  "author": "Andrea Lai",
+  "license": "ISC"
+}
